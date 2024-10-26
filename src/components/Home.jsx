@@ -1,6 +1,7 @@
 import React from 'react'
 import {Box, Image, Text} from '@chakra-ui/react'
 import {motion} from "framer-motion"
+import logo from "../assets/logo.png"
 
 const Home = () => {
   return (
@@ -19,11 +20,11 @@ const Home = () => {
         }}
       >
         <Image
-          w={"full"}
-          h={"full"}
+          w={"99%"}
+          h={"92%"}
           objectFit={"contain"}
-          src={"https://www.freepnglogos.com/uploads/bitcoin-png/bitcoinpaygate-bitcoin-payment-gateway-payment-processor-7.png"}
-          filter={"grayscale(1)"}
+          src={logo}
+          //filter={"grayscale(1)"}
         />
       </motion.div>
 
@@ -34,7 +35,7 @@ const Home = () => {
         color={"whiteAlpha.700"}
         mt={"-20"}
       >
-        CryptoInsight
+        Stock Insights
       </Text>
 
     </Box>
