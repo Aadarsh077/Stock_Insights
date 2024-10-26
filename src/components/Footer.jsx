@@ -8,12 +8,12 @@ const Footer = () => {
         <VStack w={"full"} alignItems={["center", "flex-start"]}>
           <Text>About Us</Text>
           <Text>
-            We are the best crypto trading app in India, we provide our guidance at a very cheap price.
+          Stock Insights is a platform for real-time stock market data and trends, designed for both investors and beginners. Our goal is to simplify stock analysis through intuitive charts and up-to-date information. Powered by reliable data, Stock Insights helps you stay informed and make confident decisions in a constantly evolving market.
           </Text>
         </VStack>
         <VStack>
           <Avatar boxSize={"28"} mt={["4", "0"]} src='' />
-          <Text>Our Founder</Text>
+          <Text>Founder</Text>
         </VStack>
       </Stack>
     </Box>
