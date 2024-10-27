@@ -15,7 +15,7 @@ spec:
         app: stock-app
     spec:
       containers:
-      - name: stock-app
-        image: stock-insights:latest
+      - name: stock
+        image: madhurchandran/stock-insights:v1
         ports:
         - containerPort: 80
