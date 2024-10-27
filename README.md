@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Stock Insights
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Stock Insights is a web application developed with React that provides users with real-time insights into cryptocurrency trends. The app leverages interactive charts and data visualization tools to display up-to-date market information, making it easy for users to track and compare the performance of different cryptocurrencies.
 
-## Available Scripts
+## Features
+- **Real-time Data**: Displays up-to-date prices and trends for various cryptocurrencies.
+- **Interactive Charts**: Users can explore detailed charts to see historical data and trends.
+- **User-Friendly Interface**: Simplified and clean UI for easy navigation.
+- **Data Visualization**: Visual representation of market data to help users understand trends.
+- **Customizable Filters**: Filter cryptocurrencies by market cap, volume, or specific time periods.
 
-In the project directory, you can run:
+## Tech Stack
+- **Frontend**: React, JavaScript, HTML, CSS, CharkraUI
+- **Data Visualization**: Chart.js
+- **API**: CoinGecko
 
-### `npm start`
+## Installation
+To set up the project locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/Aadarsh077/Stock_Insights.git
+    cd Stock_Insights
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-### `npm test`
+3. **Create a `.env` file** in the project root and add your API key (if required):
+    ```makefile
+    REACT_APP_API_KEY=your_api_key_here
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Start the development server**:
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+5. **Build for production**:
+    ```bash
+    npm run build
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+After setting up the project, the app should be accessible at `http://localhost:3000`. The homepage displays an overview of the crypto stock market. You can navigate through the dashboard to explore different cryptocurrencies, view historical data, and apply filters to customize your insights.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Home](Project%20Images/home.png)
+![Exchanges](Project%20Images/exchanges.png)
+![Coins Overview](Project%20Images/coins.png)
+![Chart](Project%20Images/chart.png)
+![Comparison](Project%20Images/compare.png)
+![Footer Section](Project%20Images/foot.png)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+Contributions are welcome! Follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Fork the repository**.
+2. **Create a new branch**:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. **Commit your changes**:
+    ```bash
+    git commit -m "Add your message here"
+    ```
+4. **Push to the branch**:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. **Open a Pull Request**.
