@@ -49,10 +49,19 @@ After setting up the project, the app should be accessible at `http://localhost:
 
 ## Screenshots
 
+### Home Page:
 ![Home](Project%20Images/home.png)
+
+### Exchanges:
 ![Exchanges](Project%20Images/exchanges.png)
+
+### Cards:
 ![Coins Overview](Project%20Images/coins.png)
+
+### Charts:
 ![Chart](Project%20Images/chart.png)
+
+### Comparison:
 ![Comparison](Project%20Images/compare.png)
 ![Footer Section](Project%20Images/foot.png)
 
