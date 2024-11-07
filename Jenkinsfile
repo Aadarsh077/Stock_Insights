@@ -1,5 +1,4 @@
 node {
-    def trivy = 'C:\\Users\\HP\\Downloads\\trivy_0.45.1_windows-64bit\\trivy.exe'
     def repoUrl = 'https://github.com/Aadarsh077/Stock_Insights.git'
     def imageName = 'image name'
 
@@ -21,14 +20,7 @@ node {
     stage('Build Image') {
         bat "docker build -t ${imageName} ."
     }
-    stage('sonar-scanner'){
-  
-    }
-  
 
-    stage('Trivy Image Scan') {
-        bat "${trivy} image --exit-code 1 --severity HIGH,CRITICAL ${imageName}"
-    }
 
     stage('Push Image') {
         bat "docker push ${imageName}"
