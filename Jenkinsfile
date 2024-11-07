@@ -1,6 +1,6 @@
 node {
     def repoUrl = 'https://github.com/Aadarsh077/Stock_Insights.git'
-    def imageName = 'image name'
+    def imageName = 'stock-insights'
 
     stage('Checkout') {
         checkout([
